@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>X-men - project</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <link rel="stylesheet" href="./src/css/responsive.css" />
+    </head>
+
+    <body>
+        <header class="header">
+            <img class="logo" src="./src/images/logo.svg" alt="X-men logo" />
+        </header>
+
+        <main class="character-selection">
+            <section class="characters">
+                <h1 class="title">Select a character</h1>
+                <ul class="character-list">
+                    <li
+                        class="character selected"
+                        id="cyclops"
+                        data-name="Cyclops"
+                        data-description=" Cyclops, also known as Scott Summers, is a mutant with the ability to emit powerful beams of concussive force from his eyes. He wears a special visor that allows him to control his powers. Cyclops is a natural leader and often serves as the field commander of the X-Men."
+                    >
+                        <img
+                            src="./src/images/card-cyclops.jpg"
+                            alt="Cyclops character"
+                        />
+                    </li>
+                    <li
+                        class="character"
+                        id="jean-grey"
+                        data-name="Jean Grey"
+                        data-description="Jean Grey is a powerful mutant with telepathic and telekinetic abilities. She possesses the Phoenix Force, a cosmic entity that grants her immense power. Jean is known for her compassion and inner strength, but she also struggles with controlling her tremendous abilities."
+                    >
+                        <img
+                            src="./src/images/card-jean-grey.jpg"
+                            alt="Jean Grey character"
+                        />
+                    </li>
+
+                    <li
+                        class="character"
+                        id="shadowcat"
+                        data-name="Shadowcat"
+                        data-description="Shadowcat, whose real name is Kitty Pryde, has the power of phasing, which allows her to pass through solid objects. She is highly skilled in computer hacking and serves as a technical expert for the X-Men. Kitty is known for her cheerful personality and close friendship with Wolverine."
+                    >
+                        <img
+                            src="./src/images/card-shadowcat.jpg"
+                            alt="Shadowcat character"
+                        />
+                    </li>
+
+                    <li
+                        class="character"
+                        id="storm"
+                        data-name="Storm"
+                        data-description="Ororo Munroe, also known as Storm, is a mutant with the ability to manipulate weather. She can create powerful storms, control wind and lightning, and even fly. Storm is a wise and regal leader, and her powers make her a formidable force in battle."
+                    >
+                        <img
+                            src="./src/images/card-storm.jpg"
+                            alt="Storm character"
+                        />
+                    </li>
+
+                    <li
+                        class="character"
+                        id="rogue"
+                        data-name="Rogue"
+                        data-description="Rogue, whose real name is Anna Marie, has the ability to absorb the memories, powers, and life force of anyone she touches. This power comes with a drawback, as physical contact can be dangerous to others. Rogue struggles with her isolation due to this power and seeks to control it while fighting alongside the X-Men."
+                    >
+                        <img
+                            src="./src/images/card-rogue.jpg"
+                            alt="Rogue character"
+                        />
+                    </li>
+
+                    <li
+                        class="character"
+                        id="Wolverine"
+                        data-name="Wolverine"
+                        data-description=" Wolverine, also known as Logan, has a mutant healing factor and retractable claws made of adamantium, a nearly indestructible metal. He possesses enhanced senses and is an exceptional fighter. Wolverine is known for his gruff personality, fierce loyalty, and reluctance to form close attachments."
+                    >
+                        <img
+                            src="./src/images/card-wolverine.jpg"
+                            alt="Wolverine character"
+                        />
+                    </li>
+
+                    <li
+                        class="character"
+                        id="nightcrawler"
+                        data-name="Nightcrawler"
+                        data-description="Nightcrawler, whose real name is Kurt Wagner, is a mutant with the ability to teleport. He has a distinctive appearance with blue skin, a prehensile tail, and pointed ears. Nightcrawler is highly acrobatic and skilled in close combat. Despite his demonic appearance, he is gentle and deeply religious."
+                    >
+                        <img
+                            src="./src/images/card-nightcrawler.jpg"
+                            alt="Nightcrawler character"
+                        />
+                    </li>
+
+                    <li
+                        class="character"
+                        id="magneto"
+                        data-name="Magneto"
+                        data-description="Magneto, also known as Erik Lehnsherr, is a mutant with the power to manipulate magnetic fields. He can control metal objects and generate powerful magnetic forces. Magneto is a complex character who has both been a villain and a sometimes-ally to the X-Men. He fights for the rights of mutants and believes in mutant superiority."
+                    >
+                        <img
+                            src="./src/images/card-magneto.jpg"
+                            alt="Magneto character"
+                        />
+                    </li>
+                </ul>
+            </section>
+            <section class="character-selected">
+                <img
+                    class="character-big"
+                    src="./src/images/card-cyclops.png"
+                    alt="character Selected"
+                />
+
+                <div class="character-information">
+                    <h2 class="character-name" id="character-name">Cyclops</h2>
+                    <p class="character-description" id="character-description">
+                        Cyclops, also known as Scott Summers, is a mutant with
+                        the ability to emit powerful beams of concussive force
+                        from his eyes. He wears a special visor that allows him
+                        to control his powers. Cyclops is a natural leader and
+                        often serves as the field commander of the X-Men.
+                    </p>
+                </div>
+            </section>
+        </main>
+        <script src="./src/js/script.js"></script>
+    </body>
+</html>
